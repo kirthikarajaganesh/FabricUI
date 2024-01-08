@@ -53,4 +53,4 @@ jobs:
           app-name: 'fabricUIAppService'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0F8A526BFAE24D4EBD88D34240DF6C15 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E3C87791733F49C0850A7C036010EEF5 }}
