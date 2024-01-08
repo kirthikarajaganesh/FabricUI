@@ -1,0 +1,51 @@
+/* GetWorkspaces.css */
+.workspace-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .workspace-table th, .workspace-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .workspace-table th {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .workspace-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .workspace-table tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Adjust column widths */
+  .workspace-table th:nth-child(2),
+  .workspace-table td:nth-child(2) {
+    /* Adjust the width for the 'Display Name' column */
+    width: 20%;
+  }
+  
+  .workspace-table th:nth-child(3),
+  .workspace-table td:nth-child(3) {
+    /* Adjust the width for the 'Description' column */
+    width: 30%;
+  }
+  
+  .workspace-table th:nth-child(4),
+  .workspace-table td:nth-child(4) {
+    /* Adjust the width for the 'Type' column */
+    width: 15%;
+  }
+  
+  .workspace-table th:nth-child(5),
+  .workspace-table td:nth-child(5) {
+    /* Adjust the width for the 'Capacity ID' column */
+    width: 20%;
+  }
+  

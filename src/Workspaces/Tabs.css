@@ -1,0 +1,22 @@
+/* Tabs.css */
+.tab-container {
+    display: flex;
+  }
+  
+  .tab-button {
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .tab-button:hover {
+    background-color: #c57016;
+  }
+  
+  .tab-content {
+    margin-top: 20px;
+  }
+  

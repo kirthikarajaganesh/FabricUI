@@ -1,0 +1,396 @@
+{
+    "workspaces": [
+      {
+        "id": "074db81b-101f-499b-a42b-855e88fbabcf",
+        "displayName": "MAI_UAT_Support_WS",
+        "description": "",
+        "type": "Workspace"
+      },
+      {
+        "id": "32419634-7759-4945-a0d5-ec36667974a4",
+        "displayName": "*MSX Leader Insights",
+        "description": "",
+        "type": "Workspace",
+        "capacityId": "c2e774b4-5d1a-4a4c-9106-4f5b05d288ce"
+      },
+      {
+        "id": "efa38cce-00e7-47c7-9181-8c04c3803b61",
+        "displayName": "Events",
+        "description": "",
+        "type": "Workspace"
+      },
+      {
+        "id": "16ffa7b6-1ff4-4071-87a3-542431eb911c",
+        "displayName": "Asimov Data",
+        "description": "Workspace is meant to host reports & datasets related to Asimov data platform and assets.",
+        "type": "Workspace",
+        "capacityId": "520732ed-2171-4e68-8e7c-913ef54c53ca"
+      },
+      {
+        "id": "28d98cd5-edc2-4e72-a5fa-ca18910196be",
+        "displayName": "Unified Voice of the Customer (UVOC)",
+        "description": "Making data-driven decisions about where to improve our products.",
+        "type": "Workspace",
+        "capacityId": "c2e774b4-5d1a-4a4c-9106-4f5b05d288ce"
+      },
+      {
+        "id": "854f3862-6ea6-4555-8d63-751b68e09dba",
+        "displayName": "MAI_Prod_ROB_WS",
+        "description": "",
+        "type": "Workspace"
+      },
+      {
+        "id": "0464f5ef-1f21-4d2e-b4a9-e4c087568dae",
+        "displayName": "SC and AH - Accenture Prod",
+        "description": "Workspace for SC and AH Dashboards Managed by Accenture",
+        "type": "Workspace",
+        "capacityId": "c2e774b4-5d1a-4a4c-9106-4f5b05d288ce"
+      },
+      {
+        "id": "d9824e83-2da4-4a49-9ba4-efe80985b1cb",
+        "displayName": "TSA Dashboards",
+        "description": "",
+        "type": "Workspace"
+      },
+      {
+        "id": "0355b260-8cc5-494b-8a1b-f1b03776dfd2",
+        "displayName": "360 EH WPE",
+        "description": "",
+        "type": "Workspace"
+      },
+      {
+        "id": "98f1c791-1b45-4b18-afca-4c447e01f852",
+        "displayName": "MAI_Prod_L2O_Sales_Phoenix_WS",
+        "description": "",
+        "type": "Workspace"
+      },
+      {
+        "id": "c98aaf3c-efbf-4ba6-86dd-550bfb89fa40",
+        "displayName": "Collaboration Reports",
+        "description": "",
+        "type": "Workspace"
+      },
+      {
+        "id": "f77a6e66-ca53-4666-b668-7e90ab2892b9",
+        "displayName": "MAI_UAT_ISDelivery_WS",
+        "description": "",
+        "type": "Workspace"
+      },
+      {
+        "id": "9b38e810-8a8a-45af-b544-9ed60eb6922b",
+        "displayName": "MAI_Prod_Support_CSPI_WS",
+        "description": "",
+        "type": "Workspace"
+      },
+      {
+        "id": "ddad0b78-dd2f-476f-bc72-eef246611b0b",
+        "displayName": "DevBlogs Admin-Author Dashboard",
+        "description": "In this workspace you will find dashboards for the many blogs on DevBlogs. We have one dashboard per blog.",
+        "type": "Workspace"
+      },
+      {
+        "id": "90ed5fba-e169-4647-a48b-a0878c25b6e2",
+        "displayName": "MAI_Prod_ISDelivery_WS",
+        "description": "ISD Capacity Insights Assets App Workspace",
+        "type": "Workspace"
+      },
+      {
+        "id": "49a5175b-12c4-45ee-b1aa-d4bc29878c8f",
+        "displayName": "MAI_Prod_CESDelivery_WS",
+        "description": "",
+        "type": "Workspace"
+      },
+      {
+        "id": "b32b1f98-f6b7-42ff-ba26-06867d2d0120",
+        "displayName": "PSDI Premium Workspace",
+        "description": "This is a workspace to host paginated reports.",
+        "type": "Workspace",
+        "capacityId": "c2e774b4-5d1a-4a4c-9106-4f5b05d288ce"
+      },
+      {
+        "id": "7aa145b1-d3f4-4668-b6ff-508a84554c65",
+        "displayName": "SPO COGS",
+        "description": "",
+        "type": "Workspace",
+        "capacityId": "c2e774b4-5d1a-4a4c-9106-4f5b05d288ce"
+      },
+      {
+        "id": "d92ddaaf-56b3-4830-8acd-7bac0693201d",
+        "displayName": "MAI_DEV_CloudConsumption_WS",
+        "description": "Development workspace for Cloud Consumption POD.",
+        "type": "Workspace"
+      },
+      {
+        "id": "5ed767d5-f967-4feb-a894-72fe85857dcb",
+        "displayName": "FY22 Adv Spec Tracker",
+        "description": "FY22 Adv Spec Tracker",
+        "type": "Workspace"
+      },
+      {
+        "id": "e5f72721-3b28-4ec3-bb45-e117cb24611a",
+        "displayName": "SMC Analytical Framework",
+        "description": "SMC Analytical Framework is a common and unified platform for the SMC Finance Controller community to deliver SMC Segment Business Insights across its segments to the Business owners and SLT/LT stakeholders.",
+        "type": "Workspace",
+        "capacityId": "c2e774b4-5d1a-4a4c-9106-4f5b05d288ce"
+      },
+      {
+        "id": "970fe734-3b94-4974-9cfa-dbfef824c22b",
+        "displayName": "MSX Insights PRD",
+        "description": "",
+        "type": "Workspace",
+        "capacityId": "05be7afa-5b6c-47e9-9876-ded35e58fc4e"
+      },
+      {
+        "id": "08f3607c-5272-4cec-a406-de5bd21c8542",
+        "displayName": "1ES_CredentialReporting",
+        "description": "PowerBI reports to help teams drive credential remediation.",
+        "type": "Workspace"
+      },
+      {
+        "id": "257589f4-5fa1-4d9a-9692-81eb642bddc7",
+        "displayName": "CX Advanced Analytics PBI",
+        "description": "",
+        "type": "Workspace"
+      },
+      {
+        "id": "b758c90a-22d9-4bf9-9c3f-2762364a92a4",
+        "displayName": "HubSpot Account Lookup",
+        "description": "",
+        "type": "Workspace"
+      },
+      {
+        "id": "4df3e9d9-a802-4d80-86c6-446398910cda",
+        "displayName": "D&I Workspace",
+        "description": "This workspace contains reports/analytics views created for D&I initiatives.",
+        "type": "Workspace"
+      },
+      {
+        "id": "2cf07df3-8fe2-4f7f-824a-9124856f01dc",
+        "displayName": "CELA Tools (MAQ)",
+        "description": "",
+        "type": "Workspace",
+        "capacityId": "c2e774b4-5d1a-4a4c-9106-4f5b05d288ce"
+      },
+      {
+        "id": "2f701891-1161-4704-8d31-52011f11461b",
+        "displayName": "1ES_LiveSecretsReporting",
+        "description": "",
+        "type": "Workspace"
+      },
+      {
+        "id": "e5b54e60-66e5-4056-9bf8-089507ad4083",
+        "displayName": "MAI_UAT_SUPPORT_CSPI_WS",
+        "description": "CSPI UAT Workspace",
+        "type": "Workspace"
+      },
+      {
+        "id": "e7d0f93d-8776-4d04-a41c-caa93ab806f7",
+        "displayName": "SEEDS",
+        "description": "",
+        "type": "Workspace",
+        "capacityId": "c2e774b4-5d1a-4a4c-9106-4f5b05d288ce"
+      },
+      {
+        "id": "3d4c17cd-9d45-47ea-b7d3-4cd2422c2d34",
+        "displayName": "Next Best Workload",
+        "description": "",
+        "type": "Workspace",
+        "capacityId": "c2e774b4-5d1a-4a4c-9106-4f5b05d288ce"
+      },
+      {
+        "id": "e18ff5df-fb66-4f6d-8f27-88c4dcbfc002",
+        "displayName": "[SIR236901484] Karenia",
+        "description": "",
+        "type": "Workspace"
+      },
+      {
+        "id": "72dc8081-6723-43c9-a97d-19065f804484",
+        "displayName": "ATD",
+        "description": "Adversary Threat Discovery & “The Universe”",
+        "type": "Workspace",
+        "capacityId": "c2e774b4-5d1a-4a4c-9106-4f5b05d288ce"
+      },
+      {
+        "id": "a7a7b0f5-dbb7-488d-8507-3b25f2135e7c",
+        "displayName": "Innovation Acceleration Program",
+        "description": "Innovation Acceleration Program data that is generally available to employees. Any data that is for a restricted audience should be placed in the Innovation Acceleration Board workspace.",
+        "type": "Workspace",
+        "capacityId": "c2e774b4-5d1a-4a4c-9106-4f5b05d288ce"
+      },
+      {
+        "id": "e37d98ff-90ff-4d31-a9c1-f62f5512cfea",
+        "displayName": "ICELR Dev [Production]",
+        "description": "",
+        "type": "Workspace",
+        "capacityId": "c2e774b4-5d1a-4a4c-9106-4f5b05d288ce"
+      },
+      {
+        "id": "386da666-f338-4a6b-b79b-9f778d962c74",
+        "displayName": "Dynamics Performance Test Results",
+        "description": "",
+        "type": "Workspace"
+      },
+      {
+        "id": "2ab5aa1f-e4cf-4ae2-a472-662001c44fe4",
+        "displayName": "CEO Connection",
+        "description": "",
+        "type": "Workspace"
+      },
+      {
+        "id": "1eb3fe57-369a-407f-b690-0579ac7a387d",
+        "displayName": "Microsoft Ready",
+        "description": "",
+        "type": "Workspace"
+      },
+      {
+        "id": "206af102-43d0-4122-8961-f12e43d02913",
+        "displayName": "Families@ Microsoft ERG - Worldwide",
+        "description": "",
+        "type": "Workspace"
+      },
+      {
+        "id": "ac7bf548-5f4b-4951-9f9e-5094c152d38b",
+        "displayName": "Disability ERG India Chapter",
+        "description": "",
+        "type": "Workspace"
+      },
+      {
+        "id": "318666aa-3d5a-4701-a3a7-1d37f3de57d2",
+        "displayName": "Cloud + AI TV Worldwide",
+        "description": "",
+        "type": "Workspace"
+      },
+      {
+        "id": "eab7531f-e30e-4c92-af6d-3e0b342f8061",
+        "displayName": "TechConnect (Ask CSEO)",
+        "description": "",
+        "type": "Workspace"
+      },
+      {
+        "id": "f0bc10ba-e9e4-4735-a0c1-0ed9182bd441",
+        "displayName": "Audience_AllinIN",
+        "description": "",
+        "type": "Workspace"
+      },
+      {
+        "id": "41191620-e074-4f09-9ce6-efdc36c252cc",
+        "displayName": "Everyone in Engineering Orgs FTE",
+        "description": "",
+        "type": "Workspace"
+      },
+      {
+        "id": "8f4378ae-81b5-4eb4-a032-7c7f2480e331",
+        "displayName": "Audience_AllInAsia",
+        "description": "",
+        "type": "Workspace"
+      },
+      {
+        "id": "a747137f-ad4f-4f52-90c5-95ff24d72f69",
+        "displayName": "Industry Solutions 360 [Test]",
+        "description": "",
+        "type": "Workspace",
+        "capacityId": "c2e774b4-5d1a-4a4c-9106-4f5b05d288ce"
+      },
+      {
+        "id": "8d06d827-e29f-4a6f-9842-6d93a68b95ac",
+        "displayName": "Carbon Hackathon 2021",
+        "description": "",
+        "type": "Workspace",
+        "capacityId": "c2e774b4-5d1a-4a4c-9106-4f5b05d288ce"
+      },
+      {
+        "id": "1f7080a7-c7f2-4914-a92a-51d6287ef1fc",
+        "displayName": "MSXIAnalyst",
+        "description": "",
+        "type": "Workspace",
+        "capacityId": "79613ea4-652f-4c89-a212-f41907bbdb1d"
+      },
+      {
+        "id": "32c6e62d-0be0-478c-a68b-22271843e129",
+        "displayName": "MCDS-CI-VirtualSelling",
+        "description": "PME Production workspace only for Virtual Selling Model",
+        "type": "Workspace",
+        "capacityId": "dd4dd680-b794-4fe6-92ea-542fd64fef95"
+      },
+      {
+        "id": "ef2edb42-f886-44f0-96ce-ca33dd6e2627",
+        "displayName": "Centrica Reports",
+        "description": "Power BI Dashboards and Reports for Centrica",
+        "type": "Workspace",
+        "capacityId": "c2e774b4-5d1a-4a4c-9106-4f5b05d288ce"
+      },
+      {
+        "id": "9e7774d8-8d09-4ae5-a445-b01e02adf277",
+        "displayName": "Telestory - POC",
+        "description": "",
+        "type": "Workspace",
+        "capacityId": "c2e774b4-5d1a-4a4c-9106-4f5b05d288ce"
+      },
+      {
+        "id": "7b9f576e-4192-418f-95e4-bcd78db691f3",
+        "displayName": "MSXIPipeline_FY23",
+        "description": "MSXI Pipeline Insights -FY23 Planning Environment",
+        "type": "Workspace",
+        "capacityId": "a9ce1428-dcb1-4b2f-9908-1cde09cfe811"
+      },
+      {
+        "id": "a25b49b8-7b30-4174-adcf-23377d3c3b77",
+        "displayName": "My workspace",
+        "description": "",
+        "type": "Personal"
+      },
+      {
+        "id": "464cf053-0ce7-44e7-a2dc-10fcb6cc3571",
+        "displayName": "CELA Accessibility",
+        "description": "Please request access via https://idwebelements.microsoft.com/GroupManagement.aspx?Group=CELAA11yData&Operation=join",
+        "type": "Workspace",
+        "capacityId": "c2e774b4-5d1a-4a4c-9106-4f5b05d288ce"
+      },
+      {
+        "id": "77232a1c-2812-4efa-95d6-4a9f4b7dc9ca",
+        "displayName": "Retail Telemetry",
+        "description": "",
+        "type": "Workspace",
+        "capacityId": "c2e774b4-5d1a-4a4c-9106-4f5b05d288ce"
+      },
+      {
+        "id": "7a781b4a-d053-4dc3-af98-482d5218cf5a",
+        "displayName": "Learn Platform Repository Management",
+        "description": "",
+        "type": "Workspace"
+      },
+      {
+        "id": "544ba670-c3c9-4fbc-a235-41e8e951e4f9",
+        "displayName": "AppInnovationCoE",
+        "description": "AppInnovationCoE",
+        "type": "Workspace"
+      },
+      {
+        "id": "ba61ae15-9a5f-4c01-8ebc-e24a1ba92572",
+        "displayName": "Azure Resiliency Validation",
+        "description": "",
+        "type": "Workspace",
+        "capacityId": "c2e774b4-5d1a-4a4c-9106-4f5b05d288ce"
+      },
+      {
+        "id": "2c6cbe88-9676-444a-a918-e6b414ba8857",
+        "displayName": "kirthikaworkspace",
+        "description": "workspace to explore Fabric",
+        "type": "Workspace",
+        "capacityId": "13fde97f-80f4-42f7-a56e-56ddd2839184"
+      },
+      {
+        "id": "ecb6c34d-e8f4-4e91-9108-2f41bfd31c0d",
+        "displayName": "kirthikasampleworkspace",
+        "description": "",
+        "type": "Workspace",
+        "capacityId": "13fde97f-80f4-42f7-a56e-56ddd2839184"
+      },
+      {
+        "id": "ae595b7b-8c64-46db-b2b6-74bf0c8b8930",
+        "displayName": "Workspace New displayName",
+        "description": "Workspace New description",
+        "type": "Workspace"
+      }
+    ]
+  }
