@@ -5,10 +5,16 @@ import UpdateWorkspace from './Workspaces/UpdateWorkspace';
 import DeleteWorkspace from './Workspaces/DeleteWorkspace';
 import GetWorkspaces from './Workspaces/GetWorkspaces';
 import Tabs from './Workspaces/Tabs';
+import AuthenticationComponent from './Auth/AuthenticationComponent';
 
 
 function App() {
   return (
+    // <div>
+    // <h1>Your Main Application</h1>
+    // <AuthenticationComponent />
+    // </div>
+    
     <div>
       <h1>Workspace and Item Management For Fabric</h1>
       <Tabs>
