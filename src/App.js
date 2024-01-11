@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import CreateWorkspace from './Workspaces/CreateWorkspace';
+import CreateWorkspace from './Workspaces/CreateWorkspaces';
 import UpdateWorkspace from './Workspaces/UpdateWorkspace';
 import DeleteWorkspace from './Workspaces/DeleteWorkspace';
 import GetWorkspaces from './Workspaces/GetWorkspaces';
+import CreateItem from './Items/CreateItem';
 import Tabs from './Workspaces/Tabs';
 import AuthenticationComponent from './Auth/AuthenticationComponent';
 
@@ -30,6 +31,10 @@ function App() {
         <div label="Delete Workspace">
           <DeleteWorkspace />
         </div>
+        <div label="Create Item">
+          <CreateItem/>
+        </div>
+        
       </Tabs>
     </div>
   );

@@ -1,8 +1,8 @@
 // CreateWorkspacesForm.js
 import React, { useState } from 'react';
-import './CreateWorkspaceItemForm.css'
+import '../Workspaces/CreateWorkspaceItemForm.css'
 
-const CreateWorkspacesForm = ({ values, onSubmit, onChange }) => {
+const CreateItemForm = ({ values, onSubmit, onChange }) => {
     const handleSubmit = (e) => {
       e.preventDefault();
       onSubmit(values);
@@ -28,20 +28,20 @@ const CreateWorkspacesForm = ({ values, onSubmit, onChange }) => {
           />
         </div>
         <div>
-          <label>Description:</label>
+          <label>Type:</label>
           <input
             type="text"
-            name="description"
-            value={values.description}
+            name="type"
+            value={values.type}
             onChange={handleChange}
           />
         </div>
         <div>
-          <label>Capacity ID:</label>
+          <label>Worksapce ID:</label>
           <input
             type="text"
-            name="capacityId"
-            value={values.capacityId}
+            name="workspaceId"
+            value={values.workspaceId}
             onChange={handleChange}
           />
         </div>
@@ -53,4 +53,4 @@ const CreateWorkspacesForm = ({ values, onSubmit, onChange }) => {
   };
   
 
-export default CreateWorkspacesForm;
+export default CreateItemForm;
