@@ -9,8 +9,8 @@ const GetWorkspaces = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-       const response = await axios.get('http://localhost:5006/api/Fabric/ListWorkspaces');
-       // const response = await axios.get('https://localhost:44310/api/Fabric/ListWorkspaces');
+       //const response = await axios.get('http://localhost:5006/api/Fabric/ListWorkspaces');
+       const response = await axios.get('https://localhost:44310/api/Fabric/ListWorkspaces');
 
         if (response.data && response.data.Value && Array.isArray(response.data.Value)) {
           setWorkspaces(response.data.Value);
@@ -29,7 +29,7 @@ const GetWorkspaces = () => {
 
   return (
     <div>
-      <h2>Workspaces</h2>
+      <h2>Get Workspaces</h2>
       {loading ? (
         <p>Loading...</p>
       ) : (

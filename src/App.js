@@ -6,6 +6,7 @@ import DeleteWorkspace from './Workspaces/DeleteWorkspace';
 import GetWorkspaces from './Workspaces/GetWorkspaces';
 import CreateItem from './Items/CreateItem';
 import Tabs from './Workspaces/Tabs';
+import UnifiedCreation from './Workspaces/UnifiedCreation';
 import AuthenticationComponent from './Auth/AuthenticationComponent';
 
 
@@ -21,6 +22,9 @@ function App() {
       <Tabs>
         <div label="Get Workspaces">
           <GetWorkspaces />
+        </div>
+        <div label="Workspace and Item Creation">
+          <UnifiedCreation />
         </div>
         <div label="Create Workspace">
           <CreateWorkspace />
