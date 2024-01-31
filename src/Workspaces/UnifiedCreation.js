@@ -11,7 +11,7 @@ const UnifiedCreation = () => {
     workspaceDescription: '',
     itemDisplayName: '',
     itemType: '',
-    workspaceId: '',
+    //workspaceId: '',
     capacityId: '',
   });
 
@@ -25,7 +25,7 @@ const UnifiedCreation = () => {
         workspaceDescription: formData.workspaceDescription,
         itemDisplayName: formData.itemDisplayName,
         itemType: formData.itemType,
-        workspaceId: formData.workspaceId,
+       // workspaceId: formData.workspaceId,
         capacityId: formData.capacityId,
       }, {
         headers: {
@@ -44,7 +44,7 @@ const UnifiedCreation = () => {
         workspaceDescription: '',
         itemDisplayName: '',
         itemType: '',
-        workspaceId: '',
+        //workspaceId: '',
         capacityId: '',
       });
 

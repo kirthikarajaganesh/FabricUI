@@ -47,7 +47,7 @@ const UnifiedCreationForm = ({ values, onChange, onMixinButtonClick }) => {
           onChange={(e) => onChange({ ...values, itemType: e.target.value })}
         />
       </div>
-      <div>
+      {/* <div>
         <label>Workspace ID:</label>
         <input
           type="text"
@@ -55,7 +55,7 @@ const UnifiedCreationForm = ({ values, onChange, onMixinButtonClick }) => {
           value={values.workspaceId}
           onChange={(e) => onChange({ ...values, workspaceId: e.target.value })}
         />
-      </div>
+      </div> */}
       <div>
         <label>Capacity ID:</label>
         <input

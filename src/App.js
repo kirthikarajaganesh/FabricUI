@@ -29,12 +29,12 @@ function App() {
         <div label="Create Workspace">
           <CreateWorkspace />
         </div>
-        <div label="Update Workspace">
+        {/* <div label="Update Workspace">
           <UpdateWorkspace />
         </div>
         <div label="Delete Workspace">
           <DeleteWorkspace />
-        </div>
+        </div> */}
         <div label="Create Item">
           <CreateItem/>
         </div>

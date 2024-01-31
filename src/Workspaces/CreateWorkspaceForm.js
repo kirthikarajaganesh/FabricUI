@@ -4,14 +4,7 @@ import './CreateWorkspaceItemForm.css';
 
 const CreateWorkspacesForm = ({ values, onChange, onLibraryButtonClick, onMixinButtonClick }) => {
   const handleButtonClick = (selectedValue) => {
-    if (selectedValue === 'Mixin' && onMixinButtonClick) {
-      // Call the provided callback for the Mixin button click
-      // onChange({
-      //   ...values,
-      //   capacityId: selectedValue,
-      // });
-      onMixinButtonClick();
-    } else if (selectedValue === 'Library' && onLibraryButtonClick) {
+    if(selectedValue === 'Library' && onLibraryButtonClick) {
       // Call the provided callback for the Library button click
       onLibraryButtonClick();
     }
@@ -48,11 +41,7 @@ const CreateWorkspacesForm = ({ values, onChange, onLibraryButtonClick, onMixinB
       </div>
       <div>
         <button type="button" onClick={() => handleButtonClick('Library')}>
-          Library
-        </button>
-        <span style={{ margin: '0 8px' }}></span>
-        <button type="button" onClick={() => handleButtonClick('Mixin')}>
-          Mixin
+          Submit
         </button>
       </div>
     </form>
