@@ -18,8 +18,12 @@ function App() {
     // </div>
     
     <div>
-      <h1>Workspace and Item Management For Fabric</h1>
-      <Tabs>
+      {/* <h1>Fabric Provisioning Manager <span style={{fontSize: '14px'}}>(Mock)</span></h1> */}
+      <h1 style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <span>Fabric Provisioning Manager</span>
+        <span style={{ fontSize: '14px', marginLeft: '10px' }}>(Mock)</span>
+      </h1>
+        <Tabs>
         <div label="Get Workspaces">
           <GetWorkspaces />
         </div>
