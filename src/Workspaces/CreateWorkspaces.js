@@ -16,12 +16,12 @@ const CreateWorkspaces = () => {
     try {
       setLoading(true);
 
-     // const response = await axios.post('http://localhost:5006/api/Fabric/CreateWorkspace', {
-      const response = await axios.post('https://localhost:44310/api/Fabric/CreateWorkspace', {
+      const response = await axios.post('http://localhost:5006/api/Fabric/CreateWorkspace', {
+      //const response = await axios.post('https://localhost:44310/api/Fabric/CreateWorkspace', {
        
         displayName: formData.displayName,
         description: formData.description,
-        // capacityId: '', // Exclude the capacityId from the payload
+        capacityId: formData.capacityId
       }, {
         headers: {
           'Content-Type': 'application/json',
